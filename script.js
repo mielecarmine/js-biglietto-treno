@@ -32,3 +32,5 @@ if (userAge < 18) {
   ticketPrice = ticketPrice - discount;
   console.log(ticketPrice);
 } else console.log(ticketPrice);
+
+document.getElementById("output").innerHTML = ticketPrice;
